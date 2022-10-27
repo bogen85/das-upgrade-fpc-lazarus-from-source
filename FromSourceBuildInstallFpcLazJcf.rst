@@ -18,7 +18,7 @@ Prepare development area
 ========================
 .. code-block:: bash
 
-   export SHARED_FPC_DEV_=/home/shared-development
+   export SHARED_FPC_DEV_=/home/dev
    export SHARED_FPC_USR_=${SHARED_FPC_DEV_}/fpc_usr
 
    mkdir -pv ${SHARED_FPC_DEV_}
@@ -121,7 +121,7 @@ Setup All FPC and JCF paths
 ===========================
 .. code-block:: bash
 
-   export SHARED_FPC_DEV_=/home/shared-development
+   export SHARED_FPC_DEV_=/home/dev
    export SHARED_FPC_USR_=${SHARED_FPC_DEV_}/fpc_usr
    export SHARED_FPC_VERSION_=$(printf "%s" $(cd ${SHARED_FPC_USR_}/lib/fpc; ls -d *.*.*))
    export SHARED_FPC_LIB_=${SHARED_FPC_USR_}/lib/fpc

@@ -10,7 +10,7 @@ echo '@@ Build Jedi Code Formatter (JCF)'
     grep -Ev '(Linking |Start compiling package|warning: |Warning: |Hint: |Note: |Writing Resource String| not found)' |\
     grep -Ev '(Free Pascal Compiler version |Copyright |\(s\) issued| lines compiled.|Target OS: )'
 
-  JCF=$(find /home/shared-development/laz_usr/ | grep '/jcf$')
+  JCF=$(find /home/dev/laz_usr/ | grep '/jcf$')
 
   file $JCF
   ldd $JCF
