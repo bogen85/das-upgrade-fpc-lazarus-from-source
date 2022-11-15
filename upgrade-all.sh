@@ -1,7 +1,10 @@
 #!/bin/bash
 
+set -euo pipefail
+
 time (
-	time ./upgrade-fpc.sh
-	time ./upgrade-lazarus.sh
-	time ./build-jcf.sh
+	time ./bin/upgrade-fpc.sh
+	time ./bin/build-lazarus.sh
+	time ./bin/install-lazarus.sh
+	time ./bin/upgrade-jcf.sh
 )
