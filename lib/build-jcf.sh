@@ -15,4 +15,5 @@ echo '@@ Build Jedi Code Formatter (JCF)'
   file $JCF
   ldd $JCF
   du -h $JCF
+  true
 )

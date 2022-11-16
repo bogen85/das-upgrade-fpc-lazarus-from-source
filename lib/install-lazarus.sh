@@ -12,4 +12,5 @@ echo '@@ Install Lazarus'
 	(grep -Ev '(Installing |Start compiling package | not found|Compiled package )' || true)
 
 	git describe
+	true
 )

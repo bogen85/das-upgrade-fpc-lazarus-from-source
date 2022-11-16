@@ -12,4 +12,5 @@ echo '@@ Build Lazarus'
   grep -Ev '(Free Pascal Compiler version |Copyright |\(s\) issued| lines compiled.|Target OS: )'
 
   git describe
+  true
 )

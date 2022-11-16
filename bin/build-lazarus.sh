@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "upgrade-common.sh"
+source "lib/upgrade-common.sh"
 
 __run__ 'prep-dev-area'
 __run__ 'clone-lazarus-gitlab-repo'

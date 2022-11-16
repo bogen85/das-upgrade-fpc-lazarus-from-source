@@ -5,4 +5,5 @@ echo '@@ Build Jedi Code Formatter (JCF)'
   mkdir -pv $SHARED_DEV_BIN_
   rm -fv $SHARED_DEV_BIN_/$JCF
   cp -v $JCF $SHARED_DEV_BIN_/  
+  true
 )
