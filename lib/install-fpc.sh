@@ -1,6 +1,6 @@
 echo '@@ Install FPC'
 
-cd ${SHARED_FPC_DEV_}/fpc_source_main
+cd ${SHARED_FPC_GIT_}/fpc_source_main
 
 git describe
 

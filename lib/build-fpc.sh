@@ -1,6 +1,6 @@
 echo '@@ Build FPC'
 
-cd ${SHARED_FPC_DEV_}/fpc_source_main
+cd ${SHARED_FPC_GIT_}/fpc_source_main
 git describe
 
 make --silent clean

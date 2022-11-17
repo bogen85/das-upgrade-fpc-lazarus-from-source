@@ -1,7 +1,7 @@
 echo '@@ Build Lazarus'
 (
   set -x;
-  cd $SHARED_FPC_DEV_/lazarus-main;
+  cd $SHARED_FPC_GIT_/lazarus-main;
 
   git describe
 
