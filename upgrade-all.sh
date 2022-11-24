@@ -9,5 +9,5 @@ time (
 	time ./bin/install-lazarus.sh
 	time ./bin/upgrade-jcf.sh
 
-	exec ./check-versions.sh
+	./check-versions.sh
 )
