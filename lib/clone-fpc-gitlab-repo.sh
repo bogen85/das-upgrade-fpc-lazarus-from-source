@@ -1,5 +1,8 @@
 echo '@@ Clone FPC gitlab repo into cache'
 
-cd ${SHARED_FPC_GIT_}
-rm -rf fpc_source_main_cache
-git clone https://gitlab.com/freepascal.org/fpc/source fpc_source_main_cache
+(
+	set -euo pipefail
+	main_cache="${SHARED_FPC_GIT_}/fpc_source_main_cache"
+	git_url="https://gitlab.com/freepascal.org/fpc/source"
+	__update_or_clone "${main_cache}" "${git_url}"
+)
