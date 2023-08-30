@@ -3,14 +3,20 @@ set -euo pipefail
 __lib__=$(pwd)/lib
 
 make=make
-which gmake && make=gmake
+which gmake 2>&1 >/dev/null && make=gmake
+
+if make --version 2>&1 >/dev/null; then
+	echo make candidate: $make
+	make --version | grep -q ^GNU && make=make
+	echo 'make to use (is GNU):' $make
+fi
+
 
 export make
 
 function __run__ () {
   time -p source $__lib__/$1.sh
 }
-echo '@@ Clone FPC gitlab repo into cache'
 
 function __clone_fresh() {
 	local main_cache=$1
