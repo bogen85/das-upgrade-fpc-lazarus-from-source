@@ -1,0 +1,1 @@
+sudo pacman -S gdk-pixbuf2 pango atkmm cairo glib2 perl-cairo-gobject perl-x11-protocol gtk2 gtk2+extra
