@@ -1,0 +1,1 @@
+sudo apk add qterminal openssh-client-default micro joe htop git

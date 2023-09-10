@@ -1,0 +1,16 @@
+fpc
+g++
+gcc
+git
+htop
+joe
+make
+micro
+openssh-client-default
+qterminal
+clang
+mosquitto-dev
+pkgconf
+czmq-dev
+python3-dev
+qt6-qtbase-dev

@@ -1,0 +1,1 @@
+sudo apk add arch-install-scripts-bash-completion arch-install-scripts fakeroot bash-completion
